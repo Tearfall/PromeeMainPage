@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blacked">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/backbtn"
+            android:id="@+id/backbtn"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:src="@drawable/linepromeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        >
+
+
+
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="120dp"
+            android:textColor="@color/yellow"
+            android:text="Profile"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:src="@drawable/linepromeer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/friends"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="120dp"
+            android:text="@string/friends"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:src="@drawable/linepromeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/groups"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="120dp"
+            android:text="@string/groups"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:src="@drawable/linepromeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="120dp"
+            android:text="@string/settings"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:src="@drawable/linepromeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/help"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="120dp"
+            android:text="@string/help"
+            android:textColor="@color/yellow"
+            android:textAlignment="center"
+            android:textSize="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:src="@drawable/linepromeer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/loggout"
+            />
+    </LinearLayout>
+
+</LinearLayout>
