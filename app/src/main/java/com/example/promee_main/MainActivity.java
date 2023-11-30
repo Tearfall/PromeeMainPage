@@ -16,14 +16,10 @@ import android.widget.LinearLayout;
 public class MainActivity extends AppCompatActivity {
         DrawerLayout drawerLayout;
         ImageView menu;
-
         ImageView backbtn;
-
-
         LinearLayout profile, friends, groups, settings, help, logout;
-
-       ViewPager pager;
-       PagerAdapter pagerAdapter;
+        ViewPager pager;
+        PagerAdapter pagerAdapter;
 
     @Override
 
