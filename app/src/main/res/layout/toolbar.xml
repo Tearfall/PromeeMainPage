@@ -9,8 +9,8 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:layout_width="70px"
-            android:layout_height="70px"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:id="@+id/menu_icon"
             android:src="@drawable/menu"
             android:layout_margin="10dp"
@@ -25,8 +25,8 @@
             android:src="@drawable/mylogo"/>
 
         <ImageView
-            android:layout_width="70px"
-            android:layout_height="70px"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/bell"
             android:id="@+id/notif_icon"
             android:layout_margin="10dp"

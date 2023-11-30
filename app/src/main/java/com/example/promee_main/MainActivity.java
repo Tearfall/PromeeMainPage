@@ -7,6 +7,7 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -17,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         DrawerLayout drawerLayout;
         ImageView menu;
         ImageView backbtn;
-        LinearLayout profile, friends, groups, settings, help, logout;
+        LinearLayout profile, friends, groups, settings, help;
+        Button logout;
         ViewPager pager;
         PagerAdapter pagerAdapter;
 
