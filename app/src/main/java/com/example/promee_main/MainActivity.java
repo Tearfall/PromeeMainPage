@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 openDrawer(drawerLayout);
             }
 

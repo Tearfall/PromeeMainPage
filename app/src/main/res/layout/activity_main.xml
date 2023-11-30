@@ -9,17 +9,11 @@
     tools:context=".MainActivity">
 
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
         <include layout="@layout/toolbar" />
-
-
-
     </LinearLayout>
 
     <androidx.viewpager.widget.ViewPager
@@ -40,10 +34,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="@color/black">
-
         <include layout="@layout/nav_drawer" />
-
-
     </RelativeLayout>
 
 
